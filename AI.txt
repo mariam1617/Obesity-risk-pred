@@ -1,0 +1,22 @@
+AI
+FAVC:لو الشخص الاكل اللى بياكله فيه سعرات حرارية كتير
+
+FCVC:(1 to 3)معدل استهلاك الخضار 
+
+NCP:عدد الوجبات (الرئيسية)اللى بياكلها فى اليوم
+
+CAEC:عدد مرات الوجبات اللى بياكلها بين الوجبات الرئيسية
+(never,sometimes,frequently,always)
+
+CH2O: الماء  (1 to 3)
+
+SCC:لو الشخص ده بيراقب اسعرات الحرارية اللى بياكلها
+
+FAF:معدل النشاط البدنى (0 to 3)
+
+TUE:time spent using technology (0 to 3)
+
+CALC: معدل استهلاك الكحول(Never, Sometimes, Frequently, Always).
+
+MTRANS:ايه وسيلة المواصلات اللى بيستخدمها 
+((Automobile, Bike, Motorbike, Public Transportation, Walking).
