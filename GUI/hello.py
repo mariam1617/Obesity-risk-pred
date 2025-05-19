@@ -1,7 +1,8 @@
 import streamlit as st
+import numpy as np
 import joblib 
 
-model = joblib.load("RandomForest.pkl")
+model = joblib.load("XGboost_GUI.pkl")
 col1, col2, col3 = st.columns([1, 1, 1])  # 
 
 with col1:
@@ -24,7 +25,7 @@ FAVC = st.radio("are you frequently consumes high-calorie foods", ["Yes", "No"])
 FAF = st.slider("Physical activity frequency", 0, 3, 1)
 TUE=st.slider("Time spent using technology", 0,3,1)
 
-input_data = [[age,Weight,Height,FAVC,FAF,TUE]]
+input_data = np.array([[Weight,Height,age,FAVC,FAF,TUE]])
 if st.button("predict"):
     prediction = model.predict(input_data)
     st.success(f"result {prediction[0]}")
